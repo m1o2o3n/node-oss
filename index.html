@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>index</title>
+        <meta charset="UTF-8">
+		<link href="css/bootstrap.min.css" type="text/css">
+        <script type="text/javascript" src="script/api.js"></script>
+        <script type="text/javascript" src="script/aliyun-oss-sdk.min.js"> </script>
+        <script type="text/javascript" src="script/main.js"></script>
+        <style type="text/css">
+            small{
+                background: #cccccc;}
+        </style>
+	</head>
+	<body>
+        <div id="do_list">
+            <input type="text" id="head_name"><button onclick="applyTokenDo(listFiles)">获取列表</button>
+        </div>
+        <div id="upload_file">
+            <input type="file" id="upload_file_name"><button onclick="applyTokenDo(uploadFile)">上传文件</button>
+        </div>
+        <div id="main">
+            <h1>h1. Bootstrap heading <small>Secondary text</small><mark>highlight</mark></h1>
+        </div>
+    </body>
+
+</html>
